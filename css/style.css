@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Asap";
+  src: url("../assets/font/Asap/Asap-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Segoe WP';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Segoe WP"), url("../assets/font/SegoeWP/SegoeWP.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Lucida Sans Regular"), url("../assets/font/LucidaSans/LSANS.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/font/OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: 'Segoe WP', sans-serif;
+  background: #fff;
+  font-size: 16px;
+  color: #000;
+}
+
+input:focus,
+input:active,
+textarea:focus,
+textarea:active,
+button:focus,
+button:active,
+span:focus,
+span:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+select:focus,
+select:hover,
+option:hover,
+option:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=maps/style.css.map */
