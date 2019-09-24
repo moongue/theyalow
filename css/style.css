@@ -53,4 +53,115 @@ option:focus {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.bg-top {
+  background: url("../assets/images/bg-top.png") no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 28px 0;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .logo .wrap-logo {
+  height: auto;
+  position: relative;
+}
+
+header .logo .img-logo-bg {
+  position: absolute;
+  height: 85px;
+  left: .5px;
+  top: 0;
+}
+
+header .logo .logo-name {
+  font-family: "Lucida Sans", sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 8px;
+}
+
+header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 450px;
+  background: #f5c506;
+  -webkit-box-shadow: -5px -5px 0px 0px rgba(220, 177, 5, 0.5), -8px -8px 0px 0px rgba(220, 177, 5, 0.25);
+  box-shadow: -5px -5px 0px 0px rgba(220, 177, 5, 0.5), -8px -8px 0px 0px rgba(220, 177, 5, 0.25);
+}
+
+header .navigation li:first-child a {
+  border-left: none;
+}
+
+header .navigation li a {
+  font-family: 'Segoe WP', sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #9b7d08;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 11px 14px;
+  border-left: 1px solid #dcb105;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+header .navigation li a:hover {
+  color: #be9305;
+}
+
+header .navigation li a:hover img {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+header .navigation li a img {
+  padding-right: 9px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
