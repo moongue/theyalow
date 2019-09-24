@@ -420,7 +420,7 @@ header .navigation li a img {
 .news .range-news {
   -webkit-appearance: none;
   height: 15px;
-  margin-top: 40px;
+  margin: 40px 0 20px;
   width: 100%;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.5);
@@ -432,6 +432,83 @@ header .navigation li a img {
   border-radius: 12px;
   height: 15px;
   width: 25%;
+}
+
+.description {
+  background: url(../assets/images/bg-description.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 105px;
+}
+
+.description h3 {
+  font-family: 'PTSans', sans-serif;
+  font-size: 43px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f5c506;
+  padding-top: 48px;
+}
+
+.description .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 73px;
+}
+
+.description .wrap-free {
+  position: relative;
+  padding-left: 20px;
+}
+
+.description .wrap-free .free {
+  width: 116px;
+  height: 116px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f5c506;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: -60px;
+  left: 0;
+}
+
+.description .description-list {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #a9a9a7;
+  max-width: 380px;
+}
+
+.description .description-list li {
+  padding-left: 35px;
+  position: relative;
+  margin-top: 25px;
+  line-height: 1.2;
+}
+
+.description .description-list li:before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #f5c506;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 6px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
