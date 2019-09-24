@@ -8,22 +8,37 @@
 @font-face {
   font-family: 'Segoe WP';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: local("Segoe WP"), url("../assets/font/SegoeWP/SegoeWP.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Segoe WP';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Segoe WP"), url("../assets/font/SegoeWP/segoe-wp-light.ttf") format("woff");
 }
 
 @font-face {
   font-family: 'Lucida Sans';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: local("Lucida Sans Regular"), url("../assets/font/LucidaSans/LSANS.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   src: url("../assets/font/OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url("../assets/font/PTSans/PTSans-Regular.eot");
+  src: url("../assets/font/PTSans/PTSans-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/PTSans/PTSans-Regular.woff") format("woff"), url("../assets/font/PTSans/PTSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -74,7 +89,7 @@ a {
   z-index: -1;
 }
 
-header {
+header .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,6 +290,148 @@ header .navigation li a img {
   font-size: 27px;
   text-transform: uppercase;
   margin-top: 22px;
+}
+
+.news {
+  background: url("../assets/images/bg-news.png") no-repeat;
+  background-size: cover;
+}
+
+.news .content {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.news h3 {
+  font-family: 'PTSans', sans-serif;
+  font-size: 37px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.news .plus {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 4px;
+  border-radius: 50%;
+  line-height: 0;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.news .plus:hover {
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.news .count {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 300;
+  color: #fff;
+  top: 20px;
+  right: 20px;
+}
+
+.newsItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 95px;
+  max-width: 66.66%;
+  width: 100%;
+  position: relative;
+}
+
+.newsItem__inf {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  font-size: 29px;
+  font-weight: 300;
+  overflow-wrap: break-word;
+  color: #fff;
+  background: #ec9e03;
+  padding: 25px;
+  line-height: 1.2;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.newsItem__video {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+
+.newsItem__video video {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.newsItem__date {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  background: #ddb101;
+  text-align: center;
+  padding: 15px 30px 9px;
+}
+
+.newsItem__date .date {
+  font-weight: 600;
+  font-size: 51px;
+  color: #fff;
+}
+
+.newsItem__date .month {
+  font-size: 21px;
+  color: #b26529;
+}
+
+.news .new-news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #ec9e03;
+  width: 100%;
+  max-width: 330px;
+  max-height: 223px;
+  position: relative;
+}
+
+.news .range-news {
+  -webkit-appearance: none;
+  height: 15px;
+  margin-top: 40px;
+  width: 100%;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.news .range-news::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #ec9e03;
+  border-radius: 12px;
+  height: 15px;
+  width: 25%;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
