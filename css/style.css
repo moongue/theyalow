@@ -89,6 +89,36 @@ a {
   z-index: -1;
 }
 
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo .wrap-logo {
+  height: auto;
+  position: relative;
+}
+
+.logo .img-logo-bg {
+  position: absolute;
+  height: 85px;
+  left: .5px;
+  top: 0;
+}
+
+.logo .logo-name {
+  font-family: "Lucida Sans", sans-serif;
+  font-style: italic;
+  font-size: 41px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 8px;
+}
+
 header .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,36 +130,6 @@ header .content {
   -ms-flex-align: center;
   align-items: center;
   padding: 28px 0;
-}
-
-header .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-header .logo .wrap-logo {
-  height: auto;
-  position: relative;
-}
-
-header .logo .img-logo-bg {
-  position: absolute;
-  height: 85px;
-  left: .5px;
-  top: 0;
-}
-
-header .logo .logo-name {
-  font-family: "Lucida Sans", sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  color: #fff;
-  text-transform: uppercase;
-  padding-left: 8px;
 }
 
 header .navigation {
@@ -509,6 +509,25 @@ header .navigation li a img {
   position: absolute;
   left: 0;
   top: 6px;
+}
+
+footer {
+  background: #4c4c4c;
+  -webkit-box-shadow: 0px -3px 2.5px 2.5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -3px 2.5px 2.5px rgba(0, 0, 0, 0.75);
+  padding: 6px 0;
+}
+
+footer .logo .img-logo {
+  height: 54px;
+}
+
+footer .logo .img-logo-bg {
+  height: 54px;
+}
+
+footer .logo .logo-name {
+  font-size: 29px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
