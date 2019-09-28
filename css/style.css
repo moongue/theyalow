@@ -498,6 +498,7 @@ a {
   font-size: 20px;
   color: #a9a9a7;
   max-width: 380px;
+  margin-left: 15px;
 }
 
 .description .description-item {
@@ -548,6 +549,14 @@ a {
 
   .newsItem__inf {
     font-size: 24px;
+  }
+
+  .description .wrap-free img {
+    max-width: 450px;
+  }
+
+  .description .description-list {
+    font-size: 16px;
   }
 }
 
@@ -713,6 +722,7 @@ a {
 
   .news .content {
     margin-top: 11px;
+    margin-bottom: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -806,6 +816,49 @@ a {
   .news .range-news {
     display: none;
   }
+
+  .description {
+    background: #474747;
+    padding-bottom: 55px;
+  }
+
+  .description h3 {
+    font-size: 39px;
+    padding-top: 45px;
+  }
+
+  .description .wrap-free {
+    width: 100%;
+  }
+
+  .description .wrap-free img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .description .description-list {
+    display: none;
+  }
+
+  .footer .logo {
+    padding: 0;
+    background: none;
+  }
+
+  .footer .logo .img-logo {
+    width: 31px;
+    height: 31px;
+  }
+
+  .footer .logo .img-logo-bg {
+    width: 31px;
+    height: 31px;
+    left: -.5px;
+  }
+
+  .footer .logo .logo-name {
+    font-size: 17px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -867,6 +920,10 @@ a {
 
   .news .new-news .tweets .tweet-message {
     max-width: 100%;
+  }
+
+  .description h3 {
+    font-size: 28px;
   }
 }
 
