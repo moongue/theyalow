@@ -1,0 +1,69 @@
+//Description
+.description {
+  background: url(../assets/images/bg-description.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 105px;
+
+  h3 {
+    font-family: 'PTSans', sans-serif;
+    font-size: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $yellow;
+    padding-top: 48px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+  }
+
+  .wrap-free {
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .free {
+    width: 116px;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: $yellow;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 18px;
+    position: absolute;
+    top: -60px;
+    left: 0;
+  }
+
+  .description-list {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #a9a9a7;
+    max-width: 380px;
+    margin-left: 15px;
+  }
+
+  .description-item {
+    padding-left: 35px;
+    position: relative;
+    margin-top: 25px;
+    line-height: 1.2;
+
+    &:before {
+      content: '';
+      width: 14px;
+      height: 14px;
+      background: $yellow;
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      top: 6px;
+    }
+  }
+}

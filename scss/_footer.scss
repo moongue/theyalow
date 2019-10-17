@@ -1,0 +1,17 @@
+//Footer
+.footer {
+  background: #4c4c4c;
+  box-shadow: 0px -3px 2.5px 2.5px rgba(0, 0, 0, 0.75);
+  padding: 6px 0;
+  .logo {
+    .img-logo {
+      height: 54px;
+    }
+    .img-logo-bg {
+      height: 54px;
+    }
+    .logo-name {
+      font-size: 29px;
+    }
+  }
+}

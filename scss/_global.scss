@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe WP', sans-serif;
+  background: #fff;
+  font-size: 16px;
+  color: $black;
+}
+
+input:focus,
+input:active,
+textarea:focus,
+textarea:active,
+button:focus,
+button:active,
+span:focus,
+span:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+select:focus,
+select:hover,
+option:hover,
+option:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.bg-top {
+  background: url("../assets/images/bg-top.png") no-repeat;
+  background-size: cover;
+  height: 597px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  .wrap-logo {
+    height: auto;
+    position: relative;
+  }
+
+  .img-logo-bg {
+    position: absolute;
+    height: 85px;
+    left: .5px;
+    top: 0;
+  }
+
+  .logo-name {
+    font-family: "Lucida Sans", sans-serif;
+    font-style: italic;
+    font-size: 41px;
+    color: $white;
+    text-transform: uppercase;
+    padding-left: 8px;
+  }
+}

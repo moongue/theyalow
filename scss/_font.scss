@@ -1,0 +1,45 @@
+//Font
+@font-face {
+  font-family: "Asap";
+  src: url("../assets/font/Asap/Asap-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Segoe WP';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Segoe WP'), url('../assets/font/SegoeWP/SegoeWP.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe WP';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Segoe WP'), url('../assets/font/SegoeWP/segoe-wp-light.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lucida Sans Regular'), url('../assets/font/LucidaSans/LSANS.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/font/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../assets/font/PTSans/PTSans-Regular.eot');
+  src: url('../assets/font/PTSans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../assets/font/PTSans/PTSans-Regular.woff') format('woff'),
+  url('../assets/font/PTSans/PTSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
